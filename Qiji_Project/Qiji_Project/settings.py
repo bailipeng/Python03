@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#### 1.0
 # Scrapy settings for Qiji_Project project
 #
 # For simplicity, this file contains only settings considered important or
