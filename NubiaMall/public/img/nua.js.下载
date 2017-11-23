@@ -1,0 +1,124 @@
+function addstatselfdata(){
+	var params = {};
+    //Document对象数据
+    if(document) {
+        params.domain = document.domain || ''; 
+        params.url = document.URL || ''; 
+        //params.title = document.title || ''; 
+        params.referrer = document.referrer || '';
+    }   
+    //Window对象数据
+    if(window && window.screen) {
+        var _sh = window.screen.height || 0;
+        var _sw = window.screen.width || 0;
+		params.screen = _sw + '*' + _sh;
+        params.cd = window.screen.colorDepth || 0;
+    }
+    //navigator对象数据
+    if(navigator) {
+        params.lang = navigator.language || ''; 
+        params.vendor = navigator.vendor || ''; 
+        params.platform = navigator.platform || ''; 
+    }
+	params.controller = document.getElementById('getsomeinfo').getAttribute('controller');
+	if (arguments.length > 0) {
+		params.action = arguments[0];
+	} else {
+		var _action = document.getElementById('getsomeinfo').getAttribute('action');
+		if (_action == '') {
+			_action = 'show';
+			var _search = document.location.search.replace('?','').split('&');
+			for(var i = 0; i < _search.length; i++){
+				var _searchstr = _search[i].split('=');
+				if(_searchstr[0] == 'a'){
+					_action = _searchstr[1];
+					break;
+				}
+			}
+		}
+		params.action = _action;
+	}
+	var _sku = document.getElementById('getsomeinfo').getAttribute('sku');
+	if (document.getElementById('tongjiordersn')) {
+		_sku = document.getElementById('tongjiordersn').getAttribute('ordersn');
+	}
+	params.sku = _sku;
+	params.ucid = document.getElementById('getsomeinfo').getAttribute('nid');
+    //解析_naq配置
+    if(_naq) {
+        for(var i in _naq) {
+            switch(_naq[i][0]) {
+                case '_setAccount':
+                    params.account = _naq[i][1];
+                    break;
+                default:
+                    break;
+            }   
+        }   
+    }   
+    //拼接参数串
+    var args = ''; 
+    for(var i in params) {
+        if(args != '') {
+            args += '&';
+        }   
+        args += i + '=' + encodeURIComponent(params[i]);
+    }   
+ 
+    //通过Image对象请求后端脚本
+    var img = new Image(1, 1); 
+    img.src = '//stat.nubia.cn/stat.gif?' + args;
+}
+function addstatactiveselfdata(){
+	var params = {};
+	params.controller = document.getElementById('getsomeinfo').getAttribute('controller');
+	//解析_naq配置
+    if(_naq) {
+        for(var i in _naq) {
+            switch(_naq[i][0]) {
+                case '_setAccount':
+                    params.account = 'active';
+                    break;
+				case '_activeuniquecode':
+					params.activeuniquecode = _naq[i][1];
+                    break;
+				case '_domain':
+					params.domain = _naq[i][1];
+                    break;
+                default:
+                    break;
+            }   
+        }   
+    }
+	//拼接参数串
+    var args = ''; 
+    for(var i in params) {
+        if(args != '') {
+            args += '&';
+        }   
+        args += i + '=' + encodeURIComponent(params[i]);
+    }   
+ 
+    //通过Image对象请求后端脚本
+    var img = new Image(1, 1);
+    img.src = '//stat.nubia.cn/active.gif?' + args;
+}
+addstatselfdata();
+var _naq = _naq || [];
+;(function(){
+    var el = document.getElementsByClassName('online');
+    var callback = function(){
+        _naq.push(['_activeuniquecode', 'e5b1afcedee15e3']);
+        if (location.host == "m.nubia.com") {
+            _naq.push(['_domain', 2]);
+        } else {
+            _naq.push(['_domain', 1]);
+        }
+        addstatactiveselfdata();
+    }
+    var _length = el.length;
+    for (var i=0;i< _length; i++) {
+        var bindel = el[i];
+        bindel.addEventListener ? bindel.addEventListener('click', callback, false) : bindel.attachEvent('onclick', callback); 
+    }
+})();

@@ -1,0 +1,136 @@
+window.share_config = {
+    url: '',
+    title: '',
+    summary: '我在nubia商城发现了一个很赞的商品，快来看看！',
+    desc: '我在nubia商城发现了一个很赞的商品，快来看看！',
+    pics: '',
+    site: 'http://m.nubia.com',
+    shortlink: '',
+    specid: 0
+}
+
+var qrcode = new QRCode('qrcode', {
+    text: 'http://m.nubia.com', //url
+    width: 120,
+    height: 120,
+    colorDark : '#000000',
+    colorLight : '#ffffff',
+    correctLevel : QRCode.CorrectLevel.H
+});
+
+function isinwap() {
+    return window.location.host == "m.nubia.com";
+}
+
+function _fromsource(){
+    if (isinwap()) {
+        return 'wap';
+    } 
+    return 'pc';
+}
+
+if (!isinwap()) {
+    window.share_config.site = "shop.nubia.com";
+}
+
+function qqFriend() {
+    if (!isinwap()) {
+        if (window.share_config.shortlink == '') {
+            window.share_config.url = location.protocol + '//' + location.host + '/productpackage.php?sid=' + window.share_config.specid;
+        } else {
+            window.share_config.url = location.protocol + '//' + location.host + '/buy/' + window.share_config.shortlink;
+        }
+    }
+    var _url = getshareurl(_fromsource(), 'qqfriend');
+    var p = { 
+        url : _url,
+        desc: window.share_config.desc,
+        title: window.share_config.title,
+        summary : window.share_config.summary,
+        pics : window.share_config.pics,
+        flash : '',
+        site : window.share_config.site,
+        style : '201',
+        width : 32,
+        height : 32
+    }; 
+    var s = []; 
+    for ( var i in p) { 
+        s.push(i + '=' + encodeURIComponent(p[i] || '')); 
+    } 
+    var url = "http://connect.qq.com/widget/shareqq/index.html?" + s.join('&');
+    return url;
+} 
+
+function qqZone(){
+    if (!isinwap()) {
+        if (window.share_config.shortlink == '') {
+            window.share_config.url = location.protocol + '//' + location.host + '/productpackage.php?sid=' + window.share_config.specid;
+        } else {
+            window.share_config.url = location.protocol + '//' + location.host + '/buy/' + window.share_config.shortlink;
+        }
+    }
+    var _url = getshareurl(_fromsource(), 'qqzone');
+    var _showcount = 1;
+    var _desc = window.share_config.desc;
+    var _summary = window.share_config.summary;
+    var _title = window.share_config.title;
+    var _site = window.share_config.site;
+    var _pic = window.share_config.pics;
+    var _shareUrl = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?';
+    _shareUrl += 'url=' + encodeURIComponent(_url || document.location);   //参数url设置分享的内容链接|默认当前页location 
+    _shareUrl += '&showcount=' + _showcount || 0;      //参数showcount是否显示分享总数,显示：'1'，不显示：'0'，默认不显示 
+    _shareUrl += '&desc=' + encodeURIComponent(_desc || '');    //参数desc设置分享的描述，可选参数 
+    _shareUrl += '&summary=' + encodeURIComponent(_summary || '');    //参数summary设置分享摘要，可选参数 
+    _shareUrl += '&title=' + encodeURIComponent(_title || document.title);    //参数title设置分享标题，可选参数 
+    _shareUrl += '&site=' + encodeURIComponent(_site || '');   //参数site设置分享来源，可选参数 
+    _shareUrl += '&pics=' + encodeURIComponent(_pic || '');   //参数pics设置分享图片的路径，多张图片以＂|＂隔开，可选参数 
+    return _shareUrl;
+} 
+
+function wbshare(){
+    var _shareUrl = 'http://service.weibo.com/share/mobile.php?';
+    if (!isinwap()) {
+        _shareUrl = 'http://service.weibo.com/share/share.php?';
+    }
+    if (!isinwap()) {
+        if (window.share_config.shortlink == '') {
+            window.share_config.url = location.protocol + '//' + location.host + '/productpackage.php?sid=' + window.share_config.specid;
+        } else {
+            window.share_config.url = location.protocol + '//' + location.host + '/buy/' + window.share_config.shortlink;
+        }
+    }
+    
+    var _url = getshareurl(_fromsource(), 'wb'),
+        _title = window.share_config.title + " ",
+        _description = window.share_config.desc + "\r\n",
+        _pic = window.share_config.pics,
+        _appkey = '3141810897';
+    
+    _shareUrl = _shareUrl + 'url=' + encodeURIComponent(_url ) + '&title=' + encodeURIComponent (_description + _title) + '&appkey =' + _appkey + '&pic=' + encodeURIComponent(_pic) + '&searchPic=false';
+    return _shareUrl;
+}
+
+function wxshare() {
+    qrcode.clear();
+    if (window.share_config.shortlink == '') {
+        window.share_config.url = 'http://m.nubia.com' + '/product.php?sid=' + window.share_config.specid;
+    } else {
+        window.share_config.url = 'http://m.nubia.com' + '/buy/' + window.share_config.shortlink;
+    }
+    //window.share_config.url = 'http://m.nubia.com/' + window.share_config.shortlink;
+    var _url = getshareurl(_fromsource(), 'wxfriend');
+    console.log(_url);
+    qrcode.makeCode(_url);  //url
+}
+
+function getshareurl(source, type){
+    var _url = window.share_config.url;
+    if (window.share_config.url != '') {
+        if (window.share_config.url.indexOf('?') === -1){
+            _url += '?';
+        }
+        _url += '&source=' + source + '&type=' + type;
+    }
+    return _url;
+}

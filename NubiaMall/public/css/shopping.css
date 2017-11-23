@@ -1,0 +1,312 @@
+/*商城首页轮播图修改*/
+.btnc{
+	width: 41px;height: 69px;
+	border-radius:35%;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 50%;
+	line-height: 69px;
+	font-size:40px;
+	font-family:'宋体';
+	text-align: center;
+	cursor:pointer;
+	margin-top: -25px;
+	color:white;
+}
+
+.btnc:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.cleft{
+	left: 300px;
+}
+.cright{
+	right: 30px	;
+}
+/*左侧菜单 */
+.floor{
+	width: 240px;
+	height: 528.03px;
+	padding: 12px 0px;
+	background: rgba(250,250, 250, 0.9);
+	opacity: 0.9;
+	position: absolute;
+	left:50px;top:0px;
+
+}
+
+.floor ul{
+	list-style: none;
+}
+.leftlist{
+	width: 240px;
+	height: 62px;
+}
+
+.leftlist:hover{
+	background: white;
+}
+.leftlist h2{
+	font-size:15px;
+	color:#333;
+	display: inline-block;
+
+}
+
+.seri-info{
+	margin-left: 68px;
+	width: 147px;
+	height: 62px;
+	line-height: 62px;
+}
+
+.menu-hide{
+	width: 240px;
+	height: 528.03px;
+	padding: 12px 0px;
+	background:white;
+	position: absolute;
+	left:275px;top:0px;
+	display:none;
+	z-index:1;
+}
+
+
+.cl{
+	width: 240px;
+}
+
+.cl p{
+	font-size:12px;
+	display: block;
+    margin-left: 60px;
+    position: relative;
+    top: -36px;
+    transition: color .3s ease-in-out;
+}
+
+.figure{
+	width: 60px;
+	height: 60px;
+}
+
+.figure img{
+	width: 100%;
+	/*vertical-align: middle;*/
+}
+
+/*主体内容*/
+.f-link{
+	width: 1263px;
+	margin: 0;
+	padding: 15px;
+	padding-top: 10px;
+
+}
+
+.l-menu{
+	padding-left: 35px;
+}
+.l-menu ul{
+	list-style: none;
+	height: 180px;
+	width: 240px;
+	text-align: center;
+}
+
+.l-menu ul li{
+	width: 80px;
+	height: 90px;
+	border-left: 1px solid #ebe5d7;
+	border-bottom: 1px solid #ebe5d7;
+	float: left;
+	padding: 20px 0px;
+	background: #f4f3ef;
+	color:#888;
+	font-size:12px;
+}
+
+.l-menu ul li:hover{
+	background: #f35c49;
+	color:white;
+	cursor:pointer;
+}
+.l-menu ul li i{
+	font-size:20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+.l-menu-img{
+	width: 310px;
+	height: 180px;
+	overflow: hidden;
+}
+.l-menu-img img{
+	transition: all 1.5s;
+	
+}
+.l-menu-img img:hover{
+	transform: scale(1.05);
+	
+}
+ .l-menu-div-1{
+	margin-left: -40px;
+ }
+
+ .l-menu-div-1,.l-menu-div{
+ 	margin-right: 5px;
+ }
+
+ /*商品列表*/
+
+ /*热卖手机*/
+ .goods{
+ 	padding: 0px 35px;
+ }
+
+ .goods  h3{
+ 	color:rgb(102, 102, 102);
+ 	float: left;
+ }
+
+ .more-info{
+ 	/*display: inline-block;*/
+ 	float: right;
+ 	margin-top: 30px;
+ 	color:#f35c49;
+ 	font-size:12px;
+ }
+
+ .hot-goods{
+ 	width: 290px;
+ 	height: 450px;
+ 	padding-top: 54px;
+ 	background: #f4f3ef;
+ 	margin-bottom: 13px !important;
+ 	border: 0;
+ 	transition: all 0.15s;
+ }
+.caption{
+	text-align: center;
+}
+.caption h4{
+ 	font-size:16px;
+ 	color: #222;
+ 	font-weight: normal;
+ 	text-align: center;
+ }
+
+
+.price{
+	font-size:16px;
+	color:#f35c49;
+	font-family: '微软雅黑';
+}
+
+.caption p{
+  	display: none;
+  }
+.info-btn{
+	width: 116px;
+	height: 34px;
+	background: #fff;
+	color:#f35c49;
+	border-radius:17px;
+
+}
+.info-btn:hover{
+	color:#f35c49;
+}
+.buy-btn{
+	border-radius:17px;
+	width: 116px;
+	height: 34px;
+	transition: all 0.35s;
+	background: #f35c49;
+	border: 0;
+}
+
+.buy-btn:hover{
+	background: #EC402A;
+}
+
+/*热卖手机结束*/
+
+/*精品手机*/
+.jingpin{
+	margin-bottom: 10px;
+}
+
+/*产品热评*/
+
+.bg-All{
+	margin-left: 0px;
+	margin-right: 0px;
+	background: #F4F3EF;
+}
+.bg-All .row{
+	padding: 0 25px;
+}
+
+.only-info{
+	margin-top: 0;
+	display: inline-block;
+}
+@media (min-width: 1200px){
+.bg-All {
+	    width: 100%;
+	}}
+
+
+
+.bg{
+	float: left;	
+	margin: 0;
+	padding: 0;
+}
+.pro-talk{
+	width: 290px;
+	height: 334px;
+	padding: 0;
+	margin-left: 13px;
+	background: white;
+}
+
+.talk-info{
+	color:#222;
+	font-size:16px;
+	text-align: center;
+	padding: 40px 25px 20px;
+}
+.pro-talk{
+	transition: all 2s;
+	
+}
+.pro-talk:hover{
+	transform: scale(1.06);
+	
+}
+.talk-info h5{
+	font-size:16px;
+	color:#999;
+}
+
+
+
+.service-info{
+	background: white;
+	width: 580px;
+	height: 172px;
+	margin-right: 20px;
+	float: left;
+}
+
+.service-text{
+	text-align: left;
+	float: left;
+	padding: 8px 0 8px 42px;
+	width: 360px;
+}

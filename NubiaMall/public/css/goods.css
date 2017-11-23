@@ -1,0 +1,330 @@
+/*导航下顶部商品选购列*/
+
+.sel-list{
+	height: 60px;
+	box-shadow: 0 5px 5px #ececec;
+	background: white;
+	text-align: center;
+	line-height: 60px;
+}
+.sel-list a{
+	text-decoration: none;
+	color:#999;
+	/*font-size:12px;*/
+}
+
+.top-list li{
+	width: 110px;
+	height: 58px;
+	/*border-bottom: 2px solid red;*/
+	display: inline-block;
+	/*float: left;*/
+	z-index:11;
+}
+
+/*滚动出现的顶部购买框*/
+.fixed-btn-div{
+	width: 100%;
+	height: 60px;
+	background:rgba(255,255,255,.95);
+	position: fixed;
+	left: 0;top: 0;
+	z-index:2;
+	line-height: 60px;
+	text-align: right;
+	border: 1px solid #DDDDDD;
+}
+
+.fixed-btn-div .detailtab{
+	position: absolute;
+	top: 0px;left: 0px;
+	border: 0;
+
+}
+.buy-now-btn{
+	width: 126px;
+	height: 40px;
+	line-height: 25px;
+	margin-right: 50px;
+}
+
+/*商品详情和规格参数*/
+.detailtab{
+	list-style: none;
+	height: 60px;
+	line-height: 22px;
+	/*width: 1200px;*/
+	margin: 0 auto;
+	border: 1px solid #DDDDDD;
+}
+
+.detailtab li{
+	color: #000;
+	padding: 0 50px;
+	font-size: 17px;
+	float: left;
+	margin: 19px 0;
+	cursor: pointer;
+}
+
+.tab-2{
+	border-left: 1px solid #000;
+}
+
+.row-2{
+	display: none;
+}
+
+/*.fixed-btn-div .detailtab{
+	display: none;
+}
+*/
+/*放大镜*/
+.goods-img{
+	z-index:1;
+}
+
+.small{
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: relative;
+}
+
+.big{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top:50px;
+	left:480px;
+	overflow: hidden;
+	display: none;
+}
+
+.move{
+	width: 100px;
+	height: 100px;
+	background: url(../img/bg.png);
+	position: absolute;
+	top:0px;left:0px;
+	display: none;
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+.uimg{
+	/*width: 300px;*/
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.uimg li{
+	width: 84px;
+	height: 84px;
+	float: left;
+	margin-right: 10px;
+	border:1px solid #CCCCCC;
+}
+
+.bimg{
+	position:absolute;
+	top:0px;
+	left:0px
+}
+
+.share-pc{
+	line-height: 100px;
+	height: 100px;
+	width: 100%;
+	float: left;
+	padding-left: 50px;
+	
+}
+.share-pc a{
+	text-decoration: none;
+	font-size:22px;
+	color:#F08064;
+	margin-right: 5px;
+}
+
+.share-pc span{
+	display: inline-block;
+	font-size:16px;
+	margin-right: 30px;
+	color:#747774;
+
+}
+
+
+/*产品属性下单区*/
+
+.clearfix:after,.clearfix:before{ content: "";display: table;}
+.clearfix:after{ clear:both;}
+.clearfix{zoom:1;}
+
+
+
+.select-div{
+	/*float: right;*/
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.select-div #a{
+	font-size:30px;
+	color:#000;
+	font-family: '造字工房悦黑体验版纤细体';
+}
+
+.select-div #b{
+	font-size: 25px;
+	margin-left: 10px;
+	color: #FF6700;
+}
+
+.select-div #c a{
+	color:#999;
+	float:right;
+	margin-top:25px;
+}
+
+.sellPoint span{
+	color:#FF4D4D;
+	font-size:16px;
+}
+
+.waring-info{
+	font-size:18px;
+	margin-top: 30px;
+}
+.waring-info #w{
+	font-size:18px;
+	margin-top: 30px;
+}
+.waring-info span{
+	font-size:14px;
+	margin-left: 10px;
+}
+
+.select_btn{
+	width: 260px;
+    height: 66px;
+    line-height: 66px;
+    float: left;
+    font-size: 16px;
+    border: 1px #e9e9e9 solid;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.select_btn #btn-title{
+	font-size:12px;
+/*	display: inline-block;
+	width: 150px;*/
+}
+.select_btn #siple{
+	width: 306px;
+}
+.select_btn #btn-price{
+	display: inline-block;
+}
+.redcolor{
+	color:red;
+}
+.phone_net{
+	display: block;
+	margin-top: 20px;
+}
+
+.warranty{
+	margin-left: 20px;
+	color: #e8380d;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.baoxiu{
+	width: auto;
+	min-width: 275px;
+	padding: 0 10px;
+}
+
+.sell-info #s1{
+	font-size:18px;
+
+}
+
+.sell-info #s2{
+	font-size:16px;
+
+}
+
+.sell-info #s3{
+	font-size:16px;
+	margin-bottom:35px
+}
+
+.sell-info #s4{
+	font-size: 16px; 
+	display: block;
+}
+
+.sell-info #total{
+	font-size:30px;
+	color:#fb1515;
+}
+
+.sell-info #sellPoint{
+	margin-left:0px;
+}
+
+
+#huabei{
+	display: block;
+	margin-bottom: 45px;
+}
+
+#huabei p{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#huabei ul{
+	margin-left: -10px;
+	overflow: hidden;
+}
+
+#huabei ul li{
+	float: left; 
+	width: 170px; 
+	border: 1px solid rgb(233, 233, 233); 
+	box-sizing: border-box; 
+	margin-left: 10px; 
+	text-align: center; 
+	padding: 5px 0px; 
+	display: list-item;
+}
+
+
+.buy-btn{
+	width: 126px;
+	height: 30px;
+	background-color: #e8380d;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 3px;
+	
+}
+
+
+

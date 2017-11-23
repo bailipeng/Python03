@@ -1,0 +1,75 @@
+
+/*---------------------
+------- Carousel Shop ------
+----------------------- */
+
+html,
+body,
+#carousel-shop,
+#carousel-shop .carousel-inner,
+#carousel-shop .carousel-inner .item {
+  height: 100%;
+}
+#carousel-shop,
+#carousel-shop .item {
+  height: 28%;
+  min-height: 380px;
+}
+@media only screen and (max-width: 735px) {
+  #carousel-shop,
+  #carousel-shop .item {
+    height: 45%;
+    min-height: 390px;
+  }
+}
+@media only screen and (max-width: 735px) and (orientation: portrait) {
+  #carousel-shop,
+  #carousel-shop .item {
+    max-height: 390px;
+  }
+}
+@media only screen and (min-width: 1442px) {
+  #carousel-shop,
+  #carousel-shop .item {
+    min-height: 520px;
+  }
+}
+#carousel-shop .carousel-control .icon-arrow-left4,
+#carousel-shop .carousel-control .icon-arrow-right4 {
+  font-size: 50px;
+  padding: 10px 0px;
+  top: 39%;
+}
+@media screen and (min-width: 735px) {
+ #carousel-shop  .carousel-control .icon-arrow-left4,
+ #carousel-shop .carousel-control .icon-arrow-right4 {
+ 	width: 48px;
+ 	font-size: 48px;
+ 	padding: 20px 0px;
+    top: 35%;
+  }
+}
+
+
+
+.product-item-label {
+  width: 44px;
+  line-height: 44px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+/*  border-radius: 0px 0px 0px 6px;*/
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+}
+.product-item-label.label-sale {
+  background-color: #e46662;
+  right: 0px;
+}
+.product-item-label.label-new {
+  background-color: #b67458;
+  left: 25px;
+}

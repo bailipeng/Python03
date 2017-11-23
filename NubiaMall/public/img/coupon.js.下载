@@ -1,0 +1,147 @@
+/**
+ * Created by Administrator on 2017-03-07.
+ */
+$(function(){
+    var couponActive = {};
+    $('.close,.btn-ok').on('click', function(){
+        $('.mask, .pdt-selected').hide();
+    });
+    
+    $('.coupon').on('click','.receivecoupon',function(){
+       $('#open_coupon').click();
+    });
+
+    $('.coupon-r,#open_coupon').on('click', function(){
+        if ($(this).hasClass('btn-disabled')){
+            return;
+        }
+        var html = '';
+        $.each(couponActive,function(i,e){
+            html += '<div class="coupon-item">';
+			html += '<div class="coupon-bg-l"></div>';
+			html += '<div class="coupon-bg-r"></div>';
+			html += '<div class="coupon-item-l">';
+			html += '<p class="coupon-price"><em>￥</em>' + e.couponValue + '</p>';
+			html += '<p class="coupon-price-full">满' + e.couponMinAmount + '元可用</p>';
+			html += '</div>';
+            html += '<div class="coupon-item-r">';
+            if(e.flag){
+				html += '<a couponId="'+e.couponId+'" href="javascript:void(0)" class="coupon-item-btn disabled">';
+                html += '已领取';
+            }else{
+				html += '<a couponCode="'+e.code+'" couponId="'+e.couponId+'" href="javascript:void(0)" class="coupon-item-btn coupon-item-btn-l">';
+                html += '立即领取';
+            }
+            html += '</a>';
+            html += '</div>';
+			
+            html += '<div class="coupon-item-c">';
+            html += '<p class="coupon-for">' + e.couponDisplayName + '</p>';
+            html += '<p class="coupon-time">'+e.startTime+' - '+e.endTime+'</p>';
+            html += '</div>';
+            html += '</div>';
+        });
+        $('.coupon-con,.coupon-item-con').html(html);
+        $('.mask, .pdt-selected').show().addClass('animated slideInUp');
+    });
+
+    $('.coupon-con,.coupon-item-con').on('click','.coupon-item-btn-l',function(){
+        var couponId = $(this).attr('couponId');
+        var code = $(this).attr('couponCode');
+        receiveCoupon(couponId,code,$(this));
+    });
+
+    receiveCoupon = function(couponId,code,obj){
+        var href = location.href;
+        $.ajax({
+            url : '/couponactive.php?a=receiveCouponById',
+            type : 'POST',
+            data:{couponId:couponId,code:code,backUrl:href},
+            dataType : 'json',
+            success : function(result){
+                var _ret = result.result.ret;
+                switch(_ret) {
+                    case 0:
+                        couponActive[couponId].flag = 1;
+                        obj.html('已领取');
+                        obj.removeClass('coupon-item-btn-l');
+                        obj.addClass('disabled');
+                        break;
+                    case 1:
+                        //还没登录
+                        location.href = result.result.url;
+                        break;
+                    case 6 :
+                        //已领取
+                        alert(result.message);
+                        obj.html('已领取');
+                        obj.removeClass('coupon-item-btn-l');
+                        obj.addClass('disabled');
+                        break;
+                    case 2 : //活动不存在
+                    default :
+                        //该优惠券已经领取完了
+                        alert(result.message);
+                        break;
+                }
+                return;
+            },
+            error : function(x, msg, o){
+                alert('网络异常，请稍后再试');
+                return;
+            }
+        });
+    }
+
+    showCoupon = function(){
+        var coupons = {};
+        var tmp = false;
+        $('.receivecoupon').each(function(){
+            tmp = true;
+           var code = $(this).attr('uniquecode');
+           var couponId = $(this).attr('couponId');
+           if(coupons[code] == undefined){
+               coupons[code] = [];
+               coupons[code][0] = couponId;
+           }else{
+               var len = coupons[code].length;
+               coupons[code][len] = couponId;
+           }
+        });
+        if(tmp){
+            $.ajax({
+                url : '/couponactive.php?a=ajaxGetCoupon',
+                type : 'POST',
+                data : {coupons:coupons},
+                dataType : 'json',
+                success : function(ret){
+                    if(ret.num){
+                        couponActive = ret.data;
+                        $('.coupon').show();
+                    }
+                }
+            });
+        }
+    }
+
+    function couponShowBg() {
+        var bh = $("body").height();
+        var bw = $("body").width();
+        $("#coupon_dialog_mask").css({
+            height:bh,
+            width:bw,
+            display:"block"
+        });
+        $("#coupon_dialog_mask").show();
+        $("#coupon_dialog").show();
+    }
+    function couponCloseBg() {
+        $("#coupon_dialog_mask,#coupon_dialog").hide();
+    }
+    $("#coupon_dialog_close").on("click",function(){
+        couponCloseBg();
+    })
+    $("#open_coupon").on("click",function(){
+        couponShowBg();
+    })
+});

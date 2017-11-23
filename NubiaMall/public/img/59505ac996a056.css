@@ -1,0 +1,36 @@
+#nb-mall-common .phone-comment .figure-info {
+    padding: 40px 25px 20px !important;
+    text-align: center !important;
+}
+header.store2016 .main-header .main-nav> ul> li {padding: 18px 2% 17px 2%;}
+.selectPackage li .redcolor { font-size: 14px;  }
+.fixed-btn-a{height:40px !important;line-height: 40px !important;}
+.sub-nav .btn-buy:visited{text-decoration: none;color:#fff;}
+.sub-nav .btn-buy:hover{text-decoration: none;color:#fff;background: #D41414 !important;}
+.sub-nav .btn-buy{background: #e8380d !important;}
+.row .cart{padding:18px 2% !important;height: 66px;}
+header.store2016 .main-header .main-nav> ul> li.cart:hover{background: #ee4834 !important;}
+
+.phone_net_zj>p#show_price{margin-bottom: 20px !important;}
+.phone_net_zj>p#show_price>span#total{font-size: 25px !important;}
+
+
+.nb-ml-side ul li .nb-mlside-menu>a{float: none;}
+
+.coupon-item-con .coupon-item-l{height: 117px !important;}
+
+.main_left ul.mian_left_thumb{top:10px !important;    width: 384px; height: 86px;display: inline-block;}
+.main_left ul.mian_left_thumb>li{float:left;}
+.main_left .share-pc{  padding-left: 96px !important; bottom: -50px !important;}
+.details-img>.detail-tab{margin-top: 100px !important;}
+
+.main_right .selectPackage li{width: 180px;}
+
+
+#rotateurl{position: absolute;bottom:85px;}
+
+
+.bx-controls-direction{top:-290px !important;}
+
+.bxslider>li,.bxslider{height: 520px;width: 100px !important;}
+.bx-wrapper .bxslider li a{width: 100%;}

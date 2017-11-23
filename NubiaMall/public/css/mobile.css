@@ -1,0 +1,89 @@
+@media(max-width:768px){
+	.PC{
+		display:none;
+	}
+
+	.navbar .mobile{
+		display: block;
+		margin-bottom: 0px;
+	}
+
+	.msggroup{
+		height: 800px;
+	}
+
+	.floor{
+		display: none;
+	}
+
+	.btnc{
+		display: none;
+	}
+
+	.contain{
+		display: none;
+	}
+
+	.more-info,h3,.jingpin a img,.mo-s{
+		display: none;
+	}
+
+	.thumbnail{
+		width: 414px;
+		position: relative;
+		left: -35px;
+	}
+
+
+/*商品部分*/
+
+.mo-a{
+	display: block;
+
+}
+
+.mo-c{
+	margin-left: -62px;
+}
+.uimg{
+	width: 410px;
+}
+
+.mo-d,.share-pc{
+	display: none;
+}
+
+.buy-btn{
+	display: block;
+}
+
+
+
+
+
+
+
+}
+
+.mobile{
+	margin-bottom: 0px;
+}
+
+.PC{
+	margin-bottom: 0px;
+	border: 0;
+}
+
+/*PC端*/
+
+@media(min-width:960px){
+	.PC{
+		display:block;
+	}
+
+	.mobile,.mo-a{
+		display:none;
+	}
+
+
+}

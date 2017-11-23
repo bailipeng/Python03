@@ -1,0 +1,71 @@
+#facebox {
+    padding-top: 10px;
+}
+#facebox .popup {
+    position: relative;
+    width: 100%;
+}
+#facebox table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 93%;
+    color: #999;
+}
+#facebox td {
+    padding: 0;
+}
+#facebox .dialog-content .title {
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 6px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e8380d;
+    background: #fff;
+    border-radius: 6px 6px 0px 0px;
+}
+#facebox .dialog-content .title span {
+    display: block;
+    padding: 4px 0px 5px;
+    color: #999;
+    background: #fff;
+}
+#facebox .content {
+    padding: 15px;
+    padding-left: 0px;
+}
+#facebox .footer {
+    background: none;
+    border-top: 1px solid #ddd;
+    border-bottom: none !important;
+    /* margin-top: 30px; */
+    padding-top: 14px;
+    margin-bottom: 0;
+    border-radius: 0px 0px 6px 6px;
+    text-align: right;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#facebox a.close {
+    background: url(http://thumb.ztehn.com/image/53341561debb12415c89644d.gif);
+    width: 66px;
+    height: 22px;
+    display: block;
+    float: right;
+}
+#facebox .footer input {
+    width: 113px;
+    height: 33px;
+    border: 1px solid #e8380d;
+    background: #fff;
+    color: #e8380d !important;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+#facebox .dialog-content input.view-cart {
+    margin-left: 10px;
+    background: #e8380d;
+    text-indent: 0 !important;
+    color: #fff !important;
+}

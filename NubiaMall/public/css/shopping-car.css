@@ -1,0 +1,76 @@
+/*订单进度条*/
+.bg-cart{
+	background: url(../img/bg_payorder_1.png) no-repeat center;
+	width: 100%;
+	height: 180px;
+}
+
+
+
+/*购车车列表框*/
+.title-row th{
+	color: #919291;
+	font-size: 12px;
+	background-color: #f8f7f7;
+	font-family: '黑体';
+}
+
+
+#goods-cnt {
+	width: 48px;
+	height: 25px;
+}
+
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #EEF0F0;
+}
+
+
+.btn-a{
+	width: 20px;
+	height: 25px;
+
+
+}
+.btn-b{
+	width: 100px;
+	height: 42px;
+	border-radius:24px;
+	margin-right: 40px;
+}
+
+.btn-b-1{
+	background: none;
+	border: 1px solid #E8380D;
+	color:#E8380D;
+}
+
+
+.btn-b-2{
+	background: #E8380D;
+}
+
+.btn-b-2:hover{
+	color:black;
+	background: #E8380D;
+}
+
+
+.close{
+	text-align: center;
+	float: none;
+}
+
+
+.empty{
+	display: none;
+}

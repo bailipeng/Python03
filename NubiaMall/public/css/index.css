@@ -1,0 +1,250 @@
+
+*{
+	padding: 0;
+}
+/*导航*/
+
+.daohang{
+	border-bottom: 0px;
+	margin: 0;
+	height: 66px;
+}
+.navbar-header{
+	padding-top: 8px;
+	padding-left: 60px;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+}
+.list1{
+	margin-left: 100px;
+	padding-top: 8px;
+	margin-right: 15px;
+	border:0;
+}
+
+.list1 li{
+	width: 80px;
+}
+
+.load{
+	margin-left: 50px;
+}
+#UI{
+	width: 100px;
+}
+.shopping{
+	border-radius:0;
+	width: 120px;
+	height: 66px;
+	padding: 0;
+	border: 0;
+}
+
+/*手机下拉菜单*/
+.btnc1{
+	width: 33px;height: 32px;
+	position: absolute;
+	top: 40%;
+	line-height: 32px;
+	font-size:25px;
+	font-family:'宋体';
+	font-weight: bold;
+	text-align: center;
+	cursor:pointer;
+	color:#666;
+}
+
+.cleft1{
+	left:30px;
+}
+.cright1{
+	right:30px	;
+}
+.hide-list{
+	width: 100%;
+	margin: 0;
+	height: 240px;
+	background: rgba(49, 49, 49, 0.95);
+	position: absolute;
+	left:0px;top:66px;
+	padding-top: 26px;
+	display:none;
+	border: 0;
+}
+
+.list-a{
+	text-align: center;
+	height: 188px;	
+}
+
+.list-li{
+	width: 195px;
+	height: 165px;
+	display: inline-block;
+} 
+
+.list-li .glyphicon{
+	font-size:80px;
+	color:white;
+}
+
+.list-li span{
+	display: inline-block;
+	color:white;
+	height: 30px;
+	width: 195px;
+}
+
+.list-li span:hover{
+	color:#888888;
+}
+
+.list-s .nav-img{
+	width: 96px;
+	height: 20px;
+}
+.nav-img{
+	height: 120px;
+}
+/*下拉菜单结束*/
+/*导航结束*/
+
+
+/*轮播图*/
+.lunbo{
+	/*margin-top: 66px;*/
+	cursor:pointer;
+}
+
+/*轮播图结束*/
+
+/*3张静态展示图*/
+.zst0{
+	margin: 0 2px;
+	padding-top: 1px;
+	margin-top: 3px;
+}
+.zst{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+.zst1{
+	height: 300px;
+	width: 421px;
+	padding: 3px;
+	border-radius:0px;
+	border: 0;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -20px;
+
+}
+
+.zst .zst1 img{
+	transition: all 1.5s;
+	height: 315px;
+}
+
+.zst1 img:hover{
+	transform: scale(0.98);
+	opacity: 0.95;
+
+}
+.zst1 span {
+	font-size:24px;
+	color:white;
+	font-family:'宋体';
+	position: absolute;
+	top: 133px;left:126px;
+}
+
+.zst1 p {
+	font-size:24px;
+	color:white;
+	font-family:'宋体';
+	position: absolute;
+	top: 133px;left:55px;
+}
+
+/*3张静态展示图结束*/
+
+/*<!-- 关于我们 等信息链接 -->*/
+.h4{
+	font-family: '宋体';
+	margin-bottom: 15px;
+}
+.msggroup{
+	height: 384px;
+	background: #efeeeb;
+	padding-left: 50px;
+	padding-top: 80px;
+}
+
+.msg ul{
+	padding-left: 0;
+}
+.msg ul li {
+	list-style: none;
+	margin-bottom: 8px;
+	font-size:12px;
+}
+
+.msg ul li a{
+	color:#606463;
+	text-decoration: none;
+}
+.msg ul li a:hover{
+	color:red;
+}
+/*<!-- 关于我们 等信息链接结束 -->*/
+
+
+/*页尾*/
+.footer{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#gongshang1{
+	vertical-align: middle;
+	height: 18px;
+}
+
+#gongshang2{
+	vertical-align: middle;
+	height: 14px;
+	margin-right: 5px;
+}
+
+.join a{
+	color:#e95f46;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.join .btn1{
+	width: 87px;
+	height: 21px;
+	border-radius:50px;
+	border: 0;
+	background: #E9E8E6;
+	color:#888;
+	font-size:11px;
+	line-height: 12px;
+}
+
+.join .btn1:hover{
+	transition: all 0.5s;
+	color:white;
+	background: #B6B6B6;
+}
+
+/*.join button div{
+	width: 10px;
+	height: 5px;
+	background: url(../img/spritesheet.png);
+	background-position:0 -690px;
+}*/
+/*页尾结束

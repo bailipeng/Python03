@@ -1,0 +1,115 @@
+body{
+	background: #f5f5f5;
+}
+
+.load-div{
+    width: 850px;
+    height: 543px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: #fff;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+
+.logo{
+	background: url(../img/nubia-logo.png) no-repeat;
+	background-position: 0 -55px;
+	width: 156px;
+	height: 55px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+	top: 30px;
+}
+
+/*登录类型*/
+.load{
+	margin: 0 auto;
+}
+	.loadType{
+		list-style: none;
+		height: 60px;
+		line-height: 22px;
+		width: 340px;
+		margin: 0 auto;
+		
+	}
+
+	.loadType li{
+		color: #000;
+		padding: 0 20px;
+		font-size: 18px;
+		float: left;
+		margin: 19px 0;
+		cursor: pointer;
+	}
+
+	.loadType .tab-2{
+		border-left: 1px solid #000;
+	}
+
+/*登录输入框*/
+	.user,.pswd{
+		width: 360px;
+		height: 50px;
+		font-size:12px;
+		margin: 0 auto;
+
+	}
+
+	.loadnow{
+		width: 360px;
+		height: 50px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 20px;
+		font-size: 20px;
+		background: #e8380d;
+		color: #fff;
+		border-radius:0;
+		border: none;
+		cursor: pointer;
+	} 
+
+	.register-now{
+		float: right;
+		margin-right: 245px;
+	}
+
+	.register-now span{
+		font-size: 18px;
+		padding: 0 7px;
+		color: #d5d5d5;
+	}
+	
+	.register-now #newuser{
+		color:#e8380d
+	}
+
+	.register-now #forgot{
+		color:#34383d
+	}
+	.form-group{
+		position: relative;
+	}
+
+	form span{
+		line-height: 20px;
+		height: 20px;
+		color: #F00;
+		font-size: 12px;
+		position: absolute;
+		top: 13px;
+		left: 620px;
+		width: 100px;
+		
+	}
+
+/*登录输入框结束*/
+
+
+.otherload-type{
+
+}
