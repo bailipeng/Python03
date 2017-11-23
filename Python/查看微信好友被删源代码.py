@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#作者不明,转载自学习交流群643692991
 # coding=utf-8
 from __future__ import print_function
  
