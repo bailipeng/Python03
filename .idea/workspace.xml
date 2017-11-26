@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d4f106-0622-440c-86d0-bcc35faeab7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Some little spider/12_NovelSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Some little spider/Zhainan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/三种scrapy模拟登陆策略.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,12 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
+              <first_editor relative-caret-position="930">
                 <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="三种scrapy模拟登陆策略.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/三种scrapy模拟登陆策略.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="524">
+                <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -72,6 +83,7 @@
         <option value="$PROJECT_DIR$/Some little spider/12_NovelSpider.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Some little spider/武炼巅峰.txt" />
+        <option value="$PROJECT_DIR$/三种scrapy模拟登陆策略.md" />
       </list>
     </option>
   </component>
@@ -111,16 +123,6 @@
             <path>
               <item name="Githup-bailipeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="Githup-bailipeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Githup-bailipeng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Githup-bailipeng" type="462c0819:PsiDirectoryNode" />
-              <item name="RandomProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Githup-bailipeng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Githup-bailipeng" type="462c0819:PsiDirectoryNode" />
-              <item name="Some little spider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511623533824</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="spider">
+      <created>1511682803107</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1511682803107</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -714,7 +723,7 @@
         <state relative-caret-position="248">
           <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="48" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +733,7 @@
         <state relative-caret-position="186">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,7 +807,7 @@
         <state relative-caret-position="208">
           <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -818,7 +827,7 @@
         <state relative-caret-position="-300">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -826,7 +835,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
+          <first_editor relative-caret-position="930">
             <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             <folding />
           </first_editor>
@@ -836,6 +845,17 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三种scrapy模拟登陆策略.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="524">
+            <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
