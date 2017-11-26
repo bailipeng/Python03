@@ -68,7 +68,7 @@ class Renren2Spider(scrapy.Spider):
             filename.write(response.body)
 ```
 #### 策略三：直接使用保存登陆状态的Cookie模拟登陆 
-如果实在没办法了，可以用这种方法模拟登录，虽然麻烦一点，但是成功率100%
+如果实在没办法，可以用这种方法模拟登录，虽然麻烦一点，但是成功率100%
 ```python
 # -*- coding: utf-8 -*-
 import scrapy
