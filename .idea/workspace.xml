@@ -2,7 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d4f106-0622-440c-86d0-bcc35faeab7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/三种scrapy模拟登陆策略.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/.idea/DoubanTop250.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/mymiddlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/DoubanTop250/spiders/douban.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubanTop250/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/.idea/Qiji_Project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/spiders/Zhilian.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/Qiji_Project/temp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Qiji_Project/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/.idea/py03_spider_day13.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/mymiddlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/spiders/baidu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/spiders/xici.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/utils/Mydb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/utils/filter_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/utils/filter_proxy_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/py03_spider_day13/utils/get_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RandomProxy/笔记" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/.idea/Tentent.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/Tentent/spiders/tencent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tentent/scrapy.cfg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +85,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="930">
-                <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,8 +97,8 @@
         <entry file="file://$PROJECT_DIR$/三种scrapy模拟登陆策略.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="524">
-                <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <first_editor relative-caret-position="462">
+                <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -482,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511682803107</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="spider">
+      <created>1511683575563</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1511683575563</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -510,9 +576,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36737236" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13449565" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,7 +901,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="930">
-            <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
@@ -851,8 +916,8 @@
     <entry file="file://$PROJECT_DIR$/三种scrapy模拟登陆策略.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="524">
-            <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <first_editor relative-caret-position="462">
+            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

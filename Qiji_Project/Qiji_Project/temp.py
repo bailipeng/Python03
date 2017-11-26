@@ -1,1 +1,0 @@
-pname,smoney,emoney,location,syear,eyear,degree,ptype,tags,date_pub,jobdesc,jobaddr,company
