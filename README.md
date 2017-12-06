@@ -32,6 +32,7 @@ Content index
 #### 12.八零小说网抓取
 #### 13.猫眼电影Top100(requests+多进程)
 #### 14.今日头条街拍(Ajax)
+#### 15.淘宝商品信息抓取(selenium+PhantomJS)
 
 ****
 
