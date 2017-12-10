@@ -3,80 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="58d4f106-0622-440c-86d0-bcc35faeab7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python/计算器.py" afterPath="$PROJECT_DIR$/Python/Calc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/.idea/DoubanTop250.iml" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/.idea/DoubanTop250.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/.idea/misc.xml" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/.idea/modules.xml" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/items.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/items.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/middlewares.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/middlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/mymiddlewares.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/mymiddlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/pipelines.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/pipelines.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/settings.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/spiders/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/spiders/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/DoubanTop250/spiders/douban.py" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/DoubanTop250/spiders/douban.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/DoubanTop250/scrapy.cfg" afterPath="$PROJECT_DIR$/Scrapy/DoubanTop250/scrapy.cfg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/.idea/Qiji_Project.iml" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/.idea/Qiji_Project.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/.idea/misc.xml" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/.idea/modules.xml" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/items.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/items.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/middlewares.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/middlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/pipelines.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/pipelines.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/settings.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/spiders/Zhilian.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/spiders/Zhilian.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/spiders/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/spiders/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/Qiji_Project/temp.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/Qiji_Project/temp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/main.py" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Qiji_Project/scrapy.cfg" afterPath="$PROJECT_DIR$/Scrapy/Qiji_Project/scrapy.cfg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/.idea/misc.xml" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/.idea/modules.xml" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/.idea/py03_spider_day13.iml" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/.idea/py03_spider_day13.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/main.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/items.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/items.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/middlewares.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/middlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/mymiddlewares.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/mymiddlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/pipelines.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/pipelines.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/settings.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/spiders/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/spiders/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/spiders/baidu.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/spiders/baidu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/spiders/xici.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/spiders/xici.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/utils/Mydb.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/utils/Mydb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/utils/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/utils/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/utils/filter_proxy.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/utils/filter_proxy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/utils/filter_proxy_thread.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/utils/filter_proxy_thread.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/py03_spider_day13/utils/get_proxy.py" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/py03_spider_day13/utils/get_proxy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/scrapy.cfg" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/scrapy.cfg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/RandomProxy/笔记" afterPath="$PROJECT_DIR$/Scrapy/RandomProxy/笔记" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/.idea/Tentent.iml" afterPath="$PROJECT_DIR$/Scrapy/Tentent/.idea/Tentent.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/.idea/misc.xml" afterPath="$PROJECT_DIR$/Scrapy/Tentent/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/.idea/modules.xml" afterPath="$PROJECT_DIR$/Scrapy/Tentent/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Scrapy/Tentent/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/items.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/items.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/middlewares.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/middlewares.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/pipelines.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/pipelines.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/settings.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/spiders/__init__.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/spiders/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/Tentent/spiders/tencent.py" afterPath="$PROJECT_DIR$/Scrapy/Tentent/Tentent/spiders/tencent.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Scrapy框架/Tentent/scrapy.cfg" afterPath="$PROJECT_DIR$/Scrapy/Tentent/scrapy.cfg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/12_NovelSpider.py" afterPath="$PROJECT_DIR$/SpiderDemo/12_NovelSpider.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/13_maoyan.py" afterPath="$PROJECT_DIR$/SpiderDemo/13_maoyan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/14_Toutiao.py" afterPath="$PROJECT_DIR$/SpiderDemo/14_Toutiao.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/15_TaobaoFood.py" afterPath="$PROJECT_DIR$/SpiderDemo/15_TaobaoFood.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/16_Weixin.py" afterPath="$PROJECT_DIR$/SpiderDemo/16_Weixin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/Douyu-Selenium.py" afterPath="$PROJECT_DIR$/SpiderDemo/Douyu-Selenium.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/Qiuishibaike.py" afterPath="$PROJECT_DIR$/SpiderDemo/Qiuishibaike.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/Qiushi_threading.py" afterPath="$PROJECT_DIR$/SpiderDemo/Qiushi_threading.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/TiebaSpider.py" afterPath="$PROJECT_DIR$/SpiderDemo/TiebaSpider.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/Zhainan.py" afterPath="$PROJECT_DIR$/SpiderDemo/Zhainan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/ghostdriver.log" afterPath="$PROJECT_DIR$/SpiderDemo/ghostdriver.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/zhihu.py" afterPath="$PROJECT_DIR$/SpiderDemo/zhihu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Some little spider/zhihuOCR.py" afterPath="$PROJECT_DIR$/SpiderDemo/zhihuOCR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,7 +32,7 @@
       <file leaf-file-name="16_Weixin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpiderDemo/16_Weixin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2976">
+            <state relative-caret-position="3100">
               <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -118,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="31">
-                <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <first_editor relative-caret-position="338">
+                <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -214,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,7 +154,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -652,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512698775171</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="python">
+      <created>1512810567832</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1512810567832</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -680,18 +614,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21706264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22462203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36737236" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13449565" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40597758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40597758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24957265" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -725,7 +660,8 @@
     <MESSAGE value="代理池" />
     <MESSAGE value="动态Cookies池" />
     <MESSAGE value="Spider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spider" />
+    <MESSAGE value="python" />
+    <option name="LAST_COMMIT_MESSAGE" value="python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -932,7 +868,7 @@
     <entry file="file://$PROJECT_DIR$/Some little spider/1.py" />
     <entry file="file://$PROJECT_DIR$/SpiderDemo/16_Weixin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2976">
+        <state relative-caret-position="3100">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -948,8 +884,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="31">
-            <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <first_editor relative-caret-position="338">
+            <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
